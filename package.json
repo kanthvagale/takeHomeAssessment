@@ -1,0 +1,22 @@
+{
+  "name": "takehomeassessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
+    "xlsx": "^0.18.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
